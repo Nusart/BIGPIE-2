@@ -59,7 +59,7 @@ body {
 	width: 100%;
 	height: 600px;
 	background-image: url(./imgs/Design-1.png);
-  background-attachment: fixed;
+    background-attachment: fixed;
 	background-position: bottom 75px right 0px;
 	opacity: 1;
 	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body {
 }
 
 .bulb {
-	margin-left: 20%;
+	margin-left: 13%;
 }
 
 .collapsing {
@@ -238,12 +238,13 @@ body {
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	transform: rotate(180deg);
+}
 
 .OneTwo img {
   width: 70%;
-	display: block;
-	margin: auto;
-}
+  display: block;
+  margin: auto; 
+} 
 
 .OneTwo .container {
 	padding-left: 0;
@@ -275,11 +276,15 @@ body {
 
 .colp-containerOne {
 	padding: 0 0 20px 0;
-	padding-top: 125px;
+	padding-top: 75px;
 }
 
 .colp-containerTwo {
 	padding: 0 0 20px 0;
+}
+
+.TwoZero {
+    margin: 40px 70px 0 70px;
 }
 
 .TwoTwo {
@@ -1185,17 +1190,6 @@ area {
 
 }
 
-
 .parta{
 	outline: none;
-}
-
-.img3{
-	transition: all 0.5s ease;
-}
-
-.img3:hover{
-	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 }
