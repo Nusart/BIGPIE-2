@@ -493,6 +493,7 @@ r-2 {
 	/*
 	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
 	background: -webkit-linear-gradient(to right, #434343 0%, black 100%);
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -835,6 +836,7 @@ external_knowmore {
 	animation: background-move 10s infinite;
 	background: url(Backgrounds/T--IISER_Bhopal--13.jpg);
 	font-weight: 1000;
+	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
